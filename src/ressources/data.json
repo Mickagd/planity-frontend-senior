@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "start": "10:00",
+    "duration": 60
+  },
+  {
+    "id": 2,
+    "start": "12:00",
+    "duration": 120
+  },
+  {
+    "id": 3,
+    "start": "12:00",
+    "duration": 60
+  },
+  {
+    "id": 4,
+    "start": "15:00",
+    "duration": 120
+  },
+  {
+    "id": 5,
+    "start": "16:00",
+    "duration": 180
+  },
+  {
+    "id": 6,
+    "start": "18:00",
+    "duration": 60
+  }
+]

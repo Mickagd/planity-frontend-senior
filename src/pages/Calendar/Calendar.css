@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hour_wrapper {
+  width: 100%;
+  height: 100%;
+  border-top: solid 1px black;
+}
+
+.hour {
+  font-size: 14px;
+}
