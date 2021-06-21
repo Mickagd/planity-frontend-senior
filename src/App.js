@@ -154,7 +154,7 @@ function App() {
 
     return data.default.map((item) => ({
       ...item,
-      itemWidth: itemsWidth[item.id],
+      itemWidth: width / itemsWidth[item.id].count,
       // parsint and slice used to transform an hour to an int
       top: height - (slotSize * (MAX_HOUR - parseInt(item.start.slice(0, -3)))),
       left: itemsWidth[item.id].left * (width / itemsWidth[item.id].count),
@@ -162,6 +162,8 @@ function App() {
       heightSize: slotSize * (item.duration / 60),
     }));
   }, [windowSize, itemsWidth]);
+
+  console.log('afddassds', memoizedDataToRender)
 
   return (
     <div className="wrapper">
