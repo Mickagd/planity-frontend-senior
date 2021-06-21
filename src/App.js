@@ -163,8 +163,6 @@ function App() {
     }));
   }, [windowSize, itemsWidth]);
 
-  console.log('afddassds', memoizedDataToRender)
-
   return (
     <div className="wrapper">
       <Calendar />
